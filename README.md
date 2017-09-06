@@ -15,3 +15,11 @@ Replaces the .serialize function in jQuery. Can be called as such
 ```
 var data = serialize('.form');
 ```
+
+## events.js
+Replaces the on method in jQuery. Can be called as such
+```
+onEvent('#links', 'click', function(e){
+    console.log('li elem clicked');
+}, 'li');
+```
