@@ -23,3 +23,6 @@ onEvent('#links', 'click', function(e){
     console.log('li elem clicked');
 }, 'li');
 ```
+
+## ToDo
+- [ ] Add destroy function for events
